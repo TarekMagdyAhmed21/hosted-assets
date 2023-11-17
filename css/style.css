@@ -69,7 +69,7 @@
   transition: 0.2s ease-in ;
 }
 .text_button {
-  background-image: url("/assets/image/h1_hero1.jpg");
+  background-image: url("./assets/image/h1_hero1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80.9dvh;
