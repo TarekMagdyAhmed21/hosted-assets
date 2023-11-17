@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-image: url("/assets/image/h1_hero1.jpg"); */
+  /* background-repeat: no-repeat; */
+}
+
+.nav_logo {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em 6em;
+}
+.icons {
+  display: flex;
+  gap: 1.5em;
+  color: white;
+}
+.callus {
+  color: #e5bf4a;
+  border: 1px solid #e5bf4a;
+  padding: 0.6em 1em;
+  background-color: black;
+}
+.callus:hover {
+  background-color: #e5bf4a;
+  color: white;
+  transition: 0.2s ease-in;
+}
+.nav_site {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  background-color: black;
+  padding-bottom: 2em;
+}
+.nav_site a {
+  position: relative;
+  text-decoration-line: none;
+  color: white;
+  font-weight: 500;
+}
+.nav_site a:hover {
+  color: #e5bf4a;
+}
+.nav_site a::before {
+  content: "";
+  position: absolute;
+  left: -0.1em;
+  bottom: -1em;
+  height: 2px;
+  width: 0%;
+  background: #e5bf4a;
+  transition: 0.5s;
+}
+.nav_site a:hover::before {
+  width: 120%;
+}
+.order {
+  padding: 1em;
+  background-color: #e5bf4a;
+}
+.order:hover {
+  background-color: black;
+  color: #e5bf4a;
+  border: 1px solid #e5bf4a;
+  transition: 0.2s ease-in ;
+}
+.text_button {
+  background-image: url("/assets/image/h1_hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80.9dvh;
+  padding-left: 22em;
+  padding-top: 17em;
+}
+.text_button p {
+  color: white;
+  font-size: 4em;
+  font-family: "Poiret One", sans-serif;
+}
+.text_button button {
+  padding: 1em 2.4em;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
